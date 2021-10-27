@@ -5,8 +5,7 @@ import Employees from '../Employees/Employees';
 const Main = () => {
     return (
         <div>
-            <h2>Main</h2>
-            <Employees />
+
         </div>
     );
 };

@@ -1,0 +1,13 @@
+.header {
+    background: #1abc9c;
+    margin: 0;
+    padding: 1em 2em 5em;
+    color: white;
+    text-align: center;
+    clip-path: polygon( 0 0, 200% -350%, 80% 100%, 0 30%);
+    font-size: 20px;
+}
+
+.header h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
