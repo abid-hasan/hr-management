@@ -1,7 +1,7 @@
 import React from 'react';
-import './ShortList.css';
+import './Shortlist.css';
 
-const ShortList = () => {
+const Shortlist = () => {
     return (
         <div>
             <h3>Short List</h3>
@@ -9,4 +9,4 @@ const ShortList = () => {
     );
 };
 
-export default ShortList;
+export default Shortlist;
