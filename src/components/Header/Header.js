@@ -6,7 +6,7 @@ const Header = () => {
         <div className="header">
             <h1>HR Management</h1>
             <h3>Hire Employees</h3>
-            <p>Total Budget: $12000</p>
+            <p>Total Budget: $6500</p>
         </div>
     );
 };
