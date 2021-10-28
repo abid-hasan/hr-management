@@ -4,7 +4,7 @@ import './Shortlist.css';
 const Shortlist = () => {
     return (
         <div>
-            <h3>Short List</h3>
+            <h3>Shortlist</h3>
         </div>
     );
 };
