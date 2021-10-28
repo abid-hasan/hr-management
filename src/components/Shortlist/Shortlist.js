@@ -17,7 +17,7 @@ const Shortlist = (props) => {
             </ul>
             <h4>Employee count: {shortlistings.length}</h4>
             <h4>Total Cost: ${totalSalary}</h4>
-            <button className="add-button">Hire shortlisted employees</button>
+            <button className="add-button">Hire employees</button>
         </div>
     );
 };
