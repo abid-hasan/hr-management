@@ -1,0 +1,27 @@
+.employee-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.employee-card h3 {
+    color: darkmagenta;
+}
+
+.employee-card p {
+    color: rgb(65, 65, 65);
+}
+
+.card-image {
+    border-radius: 50%;
+}
+
+.add-button {
+    background-color: darkmagenta;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -5,7 +5,8 @@ const Header = () => {
     return (
         <div className="header">
             <h1>HR Management</h1>
-            <p>Total Monthly Budget: $12000</p>
+            <h3>Hire Employees</h3>
+            <p>Total Budget: $12000</p>
         </div>
     );
 };
