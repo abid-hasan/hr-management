@@ -1,6 +1,6 @@
 # HR Management
 
-### Deployment: https://abid.gq
+### Deployment: https://ph-hr-management.netlify.app/
 
 * This simple react app helps you to choose and hire employees.
 * Shortlist has a count and total cost feature.
