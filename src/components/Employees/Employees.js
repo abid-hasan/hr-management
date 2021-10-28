@@ -2,7 +2,9 @@ import React, { useEffect, useState } from 'react';
 import './Employees.css';
 import Employee from '../Employee/Employee';
 
-const Employees = () => {
+const Employees = (props) => {
+    const { handleAddToShortlistings } = props;
+
     const [employees, setEmployees] = useState([]);
     useEffect(() => {
         fetch('./employees.json')
@@ -12,7 +14,7 @@ const Employees = () => {
     return (
         <div className="employee-container">
             {
-                employees.map(employee => <Employee key={employee.id} employee={employee} />)
+                employees.map(employee => <Employee key={employee.id} employee={employee} handleAddToShortlistings={handleAddToShortlistings} />)
             }
         </div>
     );

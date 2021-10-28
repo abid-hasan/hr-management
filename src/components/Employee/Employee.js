@@ -4,8 +4,9 @@ import { faPlusCircle } from '@fortawesome/free-solid-svg-icons'
 import './Employee.css';
 
 const Employee = (props) => {
-    console.log(props.employee);
-    const { name, age, phone, email, salary, image } = props.employee;
+    const { employee } = props;
+    const { name, age, phone, email, salary, image } = employee;
+    const { handleAddToShortlistings } = props;
 
 
     return (
@@ -16,7 +17,7 @@ const Employee = (props) => {
             <p><strong>Phone:</strong> {phone}</p>
             <p><strong>Email:</strong> {email}</p>
             <p><strong>Expected Salary:</strong> ${salary}</p>
-            <button className="add-button"><FontAwesomeIcon icon={faPlusCircle} /> Add to shortlist</button>
+            <button onClick={() => handleAddToShortlistings(employee)} className="add-button"><FontAwesomeIcon icon={faPlusCircle} /> Add to shortlist</button>
         </div>
     );
 };
