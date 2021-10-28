@@ -1,0 +1,8 @@
+.shortlist-container {
+    padding-left: 50px;
+    color: rgb(65, 65, 65);
+}
+
+.shortlist-container li {
+    list-style: circle;
+}
